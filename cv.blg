@@ -1,0 +1,26 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'cv.blg'
+[45] biber:322> INFO - === Сб мар  6, 2021, 18:15:08
+[54] Biber.pm:415> INFO - Reading 'cv.bcf'
+[95] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[103] Biber.pm:4256> INFO - Processing section 0
+[103] Utils.pm:75> INFO - Globbing data source 'sample.bib'
+[103] Utils.pm:91> INFO - Globbed data source 'sample.bib' to sample.bib
+[109] Biber.pm:4455> INFO - Looking for bibtex format file 'sample.bib' for section 0
+[110] bibtex.pm:1653> INFO - LaTeX decoding ...
+[115] bibtex.pm:1471> INFO - Found BibTeX data source 'sample.bib'
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 12, warning: 97 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 19, warning: 62 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 26, warning: 62 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 33, warning: 97 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 40, warning: 61 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 47, warning: 34 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: /tmp/biber_tmp_Flwy/sample.bib_48262.utf8, line 54, warning: 34 characters of junk seen at toplevel
+[133] Utils.pm:293> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[142] Biber.pm:4084> INFO - Sorting list 'ydnt/global//global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[142] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[146] bbl.pm:652> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[148] bbl.pm:755> INFO - Output to cv.bbl
+[148] Biber.pm:128> INFO - WARNINGS: 8

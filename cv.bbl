@@ -1,0 +1,162 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{SPARC2020}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{17th SPARC workshop, poster, video conference}
+      \field{title}{Energy Spectra of Heavy Diatomic Homonuclear Quasimolecules}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{PNPI2019}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{PNPI 53th Annual Winter School 2019, talk, St. Petersburg, Russia}
+      \field{title}{Ground and excited states energy of heavy diatomic homonuclear quasimolecules}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{SPARC2019}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{16th SPARC workshop, poster, Jena, Germany}
+      \field{title}{Ground-State Energies of Heavy Diatomic Homonuclear Quasimolecules}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{GRISC10Y}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{10 Years of G-RISC and Beyond, talk \& poster, Berlin, Germany}
+      \field{title}{Ground-state Energy of Heavy Diatomic Homonuclear Quasimolecules}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{XRS2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=994e0cb759596c19154c3aa7c759b51b}{%
+           family={Kotov},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1f3af58714c376c8350de59d57e21d0}{%
+           family={Glazov},
+           familyi={G\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07f5e8ae5597fa0acc6e9386803d47b2}{%
+           family={Malyshev},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05970c0a647868d6cdb15e89bb1fcdd6}{%
+           family={Vladimirova},
+           familyi={V\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34693c34165442b6c2958064edf136a7}{%
+           family={Shabaev},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi M.},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a238548f8e2e383e1a01cce5cec328a4}{%
+           family={Plunien},
+           familyi={P\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9f6e4edc99864a1362ed637ccb54e29}
+      \strng{fullhash}{5234e0166c4ec75e9a98c3d7a61f1303}
+      \strng{bibnamehash}{e9f6e4edc99864a1362ed637ccb54e29}
+      \strng{authorbibnamehash}{e9f6e4edc99864a1362ed637ccb54e29}
+      \strng{authornamehash}{e9f6e4edc99864a1362ed637ccb54e29}
+      \strng{authorfullhash}{5234e0166c4ec75e9a98c3d7a61f1303}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{X-Ray Spectrometry}
+      \field{title}{Ground-State Energy of Uranium Diatomic Quasimolecules with One and Two Electrons.}
+      \field{volume}{49}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{110}
+      \range{pages}{1}
+    \endentry
+    \entry{SnP2018}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{9th International Student Conference <<Science and Progress-2018>>, talk, St. Petersburg, Russia}
+      \field{title}{Ground-state energy of heavy diatomic homonuclear quasimolecules}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{HCI2018}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{19th International Conference on Physics of Highly Charged Ions, poster, Lisbon, Portugal}
+      \field{title}{Ground-State Energy of Uranium Diatomic Quasimolecules with One and Two Electrons.}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{SnP2017}{inproceedings}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{8th International Student Conference <<Science and Progress-2017>>, poster, St. Petersburg, Russia}
+      \field{title}{Ground-state energy of heavy diatomic homonuclear quasimolecules}
+      \field{year}{2017}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
