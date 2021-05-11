@@ -23,6 +23,36 @@
 
 \documentclass[10pt,a4paper,ragged2e, academicons]{altacv}
 
+% American style citations in bibliography
+\renewbibmacro*{journal+issuetitle}{%
+\usebibmacro{journal}%
+\setunit*{\addspace}%
+\iffieldundef{series}
+{}
+{\newunit
+\printfield{series}%
+\setunit{\addspace}}%
+\usebibmacro{volume+number+eid}%
+\setunit{\bibpagespunct}%
+\printfield{pages}%
+\setunit{\addspace}%
+\usebibmacro{issue+date}%
+\setunit{\space}%
+\usebibmacro{issue}%
+\newunit}
+
+\renewbibmacro*{note+pages}{%
+\printfield{note}%
+\newunit}
+
+\DeclareFieldFormat[article,periodical]{pages}{#1}
+\renewbibmacro{in:}{} % Remove In:
+\DeclareFieldFormat[article]{volume}{\textbf{#1}\space} % Bold volume
+\DeclareFieldFormat[article]{journaltitle}{#1} % Journal title is printed as normal text
+% \DeclareFieldFormat[article,incollection,unpublished]{title}{\textit{#1}} % No quotes for article \textit{titles}
+\DeclareFieldFormat[article,incollection,unpublished]{title}{} % Remove article titles in bibliography
+\DeclareFieldFormat{pages}{#1} % Remove p./pp.
+
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages.
 %% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
@@ -61,11 +91,9 @@
 
 \begin{document}
 \name{Artem Kotov}
-\tagline{PhD Student @ St. Petersburg State University}
+\tagline{PhD Student @ St. Petersburg State University | Junior ML Engineer}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
-%\photo{3.3cm}{profile.jpg}
 \personalinfo{%
-    % Not all of these are required!
     \location{St. Petersburg, Russia}
     % You can add your own with \printinfo{symbol}{detail}
     \email{artem.a.kotov@gmail.com}
@@ -75,13 +103,14 @@
     %  \twitter{@marissamayer}
     %  \linkedin{linkedin.com/in/ronak-dedhiya}
     \github{github.com/breengles} % I'm just making this up though.
-    \orcid{orcid.org/0000-0002-4629-138X} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+    % \orcid{orcid.org/0000-0002-4629-138X}
+    \orcid{0000-0002-4629-138X}
 }
 
 %% Make the header extend all the way to the right, if you want.
-% \begin{fullwidth}
+\begin{fullwidth}
 \makecvheader
-% \end{fullwidth}
+\end{fullwidth}
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
@@ -95,7 +124,7 @@
 \cvevent{Engineer Researcher}{Quantum Mechanics Lab @ St. Petersburg State University}{Aug 2018 -- Present}{St. Petersburg, Russia}
 \begin{itemize}
 \item Research and development of numerical algorithms for a relativistic spectrum calculation of the diatomic quasimolecules
-\item Performing chemistry property calculation of the super-heavy elements and molecules
+\item Performing chemical property calculation of the super-heavy elements and molecules
 \end{itemize}
 
 \divider
@@ -105,49 +134,11 @@
     \item Theoretical and practical course on the introduction to the quantum mechanics for college students
 \end{itemize}
 
-%\divider
-
-\cvsection{Achievements}
-\smallskip
-\begin{itemize}
-\item 2nd place in <<Start-Up SPbU 2018>>
-\end{itemize}
-
-\cvsection{SKILLS}
-
-\textbf{Natural Languages:} German, English
-
-\textbf{Programming Languages:} Fortran, Python
-
-\textbf{Tools:} Git, DIRAC, Intel OneAPI, MPI, OMP
-
-\textbf{Data Science Stack:} pandas, numpy, scikit-learn, scipy
-
-\textbf{Neural Network Stack:} PyTorch
-
-\textbf{Operating systems:} Unix, MacOS, Windows
-
-% \divider
-
-% \cvskill{Fortran}{5}
-% \cvskill{Python}{4}
-
-% \divider
-
-% \cvskill{DIRAC}{3}
-% \cvskill{PyTorch}{4}
-
-% \divider
-
-% \cvskill{English}{4}
-% \cvskill{German}{1}
-
 
 \cvsection{Education / Courses}
-%\divider
-\cvevent{PhD student}{St. Petersburg State University}{Sept 2020 -- Present}{St. Petersburg, Russia}
-\cvevent{MSc. in Physics}{St. Petersburg State University}{Sept 2018 -- June 2020}{}
-\cvevent{BSc. in Physics}{St. Petersburg State University}{Sept 2014 -- June 2018}{}
+\cvevent{PhD student in Physics}{St. Petersburg State University}{Sep 2020 -- Present}{St. Petersburg, Russia}
+\cvevent{MSc. in Physics}{St. Petersburg State University}{Sep 2018 -- June 2020}{}
+\cvevent{BSc. in Physics}{St. Petersburg State University}{Sep 2014 -- June 2018}{}
 
 \divider
 
@@ -168,9 +159,9 @@
 %   5/8em/accent!20/Baking cupcakes
 % }
 
-\clearpage
+% \clearpage
 
-\begin{fullwidth}
+% \begin{fullwidth}
 \cvsection[page2sidebar]{Publications}
 
 \nocite{*}
@@ -184,7 +175,7 @@
 \divider
 
 \printbibliography[heading=pubtype,title={{Conferences}}, type=inproceedings]
-\end{fullwidth}
+% \end{fullwidth}
 % %% If the NEXT page doesn't start with a \cvsection but you'd
 % %% still like to add a sidebar, then use this command on THIS
 % %% page to add it. The optional argument lets you pull up the
