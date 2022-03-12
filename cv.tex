@@ -22,7 +22,7 @@
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
 \documentclass[10pt,a4paper,ragged2e, academicons]{altacv}
-
+\usepackage{hyperref}
 % American style citations in bibliography
 \renewbibmacro*{journal+issuetitle}{%
 \usebibmacro{journal}%
@@ -96,20 +96,21 @@
 \personalinfo{%
     \location{St. Petersburg, Russia}
     % You can add your own with \printinfo{symbol}{detail}
-    \email{artem.a.kotov@gmail.com}
-    \telegram{t.me/breengles}
+    \email{\href{mailto:artem.a.kotov@gmail.com}{artem.a.kotov@gmail.com}}
+    \telegram{\href{https://t.me/breengles}{t.me/breengles}}
     %  \mailaddress{Address, Street, 00000 County}
     %  \homepage{marissamayr.tumblr.com/}
     %  \twitter{@marissamayer}
     %  \linkedin{linkedin.com/in/ronak-dedhiya}
-    \github{github.com/breengles} % I'm just making this up though.
+    \github{\href{https://github.com/breengles}{github.com/breengles}} % I'm just making this up though.
     % \orcid{orcid.org/0000-0002-4629-138X}
-    \orcid{0000-0002-4629-138X}
+    \orcid{\href{https://orcid.org/
+            0000-0002-4629-138X}{0000-0002-4629-138X}}
 }
 
 %% Make the header extend all the way to the right, if you want.
 \begin{fullwidth}
-\makecvheader
+    \makecvheader
 \end{fullwidth}
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
@@ -123,8 +124,8 @@
 
 \cvevent{Engineer Researcher}{Quantum Mechanics Lab @ St. Petersburg State University}{Aug 2018 -- Present}{St. Petersburg, Russia}
 \begin{itemize}
-\item Research and development of numerical algorithms for a relativistic spectrum calculation of the diatomic quasimolecules
-\item Performing chemical property calculation of the super-heavy elements and molecules
+    \item Research and development of numerical algorithms for a relativistic spectrum calculation of the diatomic quasimolecules
+    \item Performing chemical property calculation of the super-heavy elements and molecules
 \end{itemize}
 
 \divider
@@ -170,7 +171,13 @@
 
 % \divider
 
-\printbibliography[heading=pubtype,title={{Journal Articles}}, type=article]
+% \printbibliography[heading=pubtype,title={{Journal Articles}}, type=article]
+\vspace{-0.5cm}
+\subsection*{Journal articles}
+\begin{itemize}
+    \item A. A. Kotov \textit{et al.} Atoms \textbf{9}, 44 (2021)
+    \item A. A. Kotov \textit{et al.} X-Ray Spectrometry \textbf{49}, 110 (2020)
+\end{itemize}
 
 \divider
 
